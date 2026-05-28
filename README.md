@@ -1,5 +1,47 @@
-Let's play SchnitzelVerbrechen!<br>
-Based on https://www.reddit.com/r/SchnitzelVerbrechen<br>
+![alt text](<Screenshot 2026-05-28 130547.png>)
 
-<img width="956" height="451" alt="image" src="https://github.com/user-attachments/assets/b022c6bb-f93a-488c-8ca5-e25db291ca02" />
 
+# 🧀 SchnitzelVerbrechen (Version 02)
+
+<div align="center">
+
+🎮 A chaotic memory card game  
+🥩 Find matching pairs… but everything is about “Schnitzel crimes”
+
+</div>
+
+---
+
+## 🧠 About the Game
+
+**SchnitzelVerbrechen** is a JavaScript-based memory game where players must find matching card pairs.
+
+But instead of normal symbols or images, every pair is related to absurd “Schnitzel crimes”.
+
+It combines:
+- classic memory gameplay
+- humorous thematic design
+- lightweight JavaScript logic
+
+This is **Version 02**, a reworked and improved version of the original concept.
+
+---
+
+## 🎯 How to Play
+
+- Flip cards one by one
+- Try to find matching pairs
+- Remember their positions
+- Match all pairs to win the game
+
+Simple rules — chaotic theme.
+
+---
+
+## 🛠️ Built With
+
+- JavaScript (Vanilla JS)
+- HTML
+- CSS
+- DOM manipulation
+- Event-driven logic
