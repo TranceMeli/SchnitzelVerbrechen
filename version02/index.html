@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchnitzelVerbrechenMemory</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="card.js" defer></script>
+    <script src="words.js" defer></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+<div class="container">
+    <section class="memory-game"></section>
+</div>
+
+<div class="tooltip-box" id="msg-left"></div>
+<div class="tooltip-box" id="msg-right"></div>
+
+<div class="bottom-bar">
+    <div id="score">Score: 0</div>
+    <div class="bottom-center">
+        <button id="reset-btn" onclick="resetGame()">Restart</button>
+        <h1>SchnitzelVerbrechenMemory</h1>
+    </div>
+    <div id="moves">Züge: 0</div>
+</div>
+
+</body>
+</html>

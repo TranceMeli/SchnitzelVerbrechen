@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background: #3b2401;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    /* Platz für die fixe Leiste unten */
+    padding-bottom: calc(90px + 10px);
+}
+
+/* ── Karten-Grid ── */
+.memory-game {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+    width: min(700px, 95vw);
+}
+
+.memory-card {
+    aspect-ratio: 1 / 0.9;
+    position: relative;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.memory-card:active {
+    transform: scale(0.97);
+    transition: transform .2s;
+}
+
+.memory-card.flip {
+    transform: rotateY(180deg);
+}
+
+.front-face,
+.back-face {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    position: absolute;
+    border-radius: 5px;
+    background: #1c1c1c;
+    backface-visibility: hidden;
+    object-fit: contain;
+}
+
+.front-face {
+    transform: rotateY(180deg);
+}
+
+
+.tooltip-box {
+    position: fixed;
+    bottom: 90px; 
+    width: 200px;
+    min-height: 70px;
+    background: #6b501a;
+    border-radius: 6px 6px 0 0;
+    padding: 10px 12px;
+    font-size: 1.5rem;
+    color: #f5e275;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+#msg-left  { left: 0; }
+#msg-right { right: 0; }
+
+.tooltip-box.visible {
+    opacity: 1;
+}
+
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    background: #f5e275;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding: 0 32px;
+    gap: 12px;
+}
+
+#score {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #3b2401;
+    justify-self: start;
+}
+
+.bottom-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.bottom-center h1 {
+    color: #3b2401;
+    font-size: 1.1rem;
+}
+
+#reset-btn {
+    background: white;
+    color: #3b2401;
+    border: 1.5px solid #3b2401;
+    border-radius: 4px;
+    padding: 4px 16px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#reset-btn:hover {
+    background: #f0d555;
+}
+
+#moves {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #3b2401;
+    justify-self: end;
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="132.29167mm"
+   height="132.29169mm"
+   viewBox="0 0 132.29167 132.29169"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="Rastergrafik.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="132.29167"
+       height="132.29169"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <rect
+       x="325.30161"
+       y="519.2608"
+       width="294.75687"
+       height="76.361885"
+       id="rect5" />
+    <rect
+       x="374.17322"
+       y="296.28412"
+       width="238.24908"
+       height="204.64986"
+       id="rect4" />
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-47.277552,-62.632653)">
+    <rect
+       style="fill:#ffcc00;stroke-width:1.38599"
+       id="rect1"
+       width="132.29167"
+       height="132.29167"
+       x="47.27755"
+       y="62.632652" />
+    <text
+       xml:space="preserve"
+       transform="matrix(1.2480108,0,0,1.2277733,-501.18009,-296.02463)"
+       id="text3"
+       style="font-weight:bold;font-size:64px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect4);fill:#000000;stroke-width:4"><tspan
+         x="450.61035"
+         y="353.93149"
+         id="tspan1">SV</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.47428087,0,0,0.45025961,-110.56401,-91.04809)"
+       id="text4"
+       style="font-weight:bold;font-size:32px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect5);fill:#000000;stroke-width:4"><tspan
+         x="423.78906"
+         y="548.08586"
+         id="tspan2">Ab ins </tspan><tspan
+         x="378.46094"
+         y="588.08586"
+         id="tspan3">Burgenland!</tspan></text>
+  </g>
+</svg>
